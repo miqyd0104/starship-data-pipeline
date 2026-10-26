@@ -1,0 +1,2068 @@
+{
+  "homeworld_counts": [
+    {
+      "_id": "Naboo",
+      "count": 11
+    },
+    {
+      "_id": "Tatooine",
+      "count": 10
+    },
+    {
+      "_id": "unknown",
+      "count": 10
+    },
+    {
+      "_id": "Alderaan",
+      "count": 3
+    },
+    {
+      "_id": "Coruscant",
+      "count": 3
+    },
+    {
+      "_id": "Kamino",
+      "count": 3
+    },
+    {
+      "_id": "Corellia",
+      "count": 2
+    },
+    {
+      "_id": "Kashyyyk",
+      "count": 2
+    },
+    {
+      "_id": "Mirial",
+      "count": 2
+    },
+    {
+      "_id": "Ryloth",
+      "count": 2
+    },
+    {
+      "_id": "Aleen Minor",
+      "count": 1
+    },
+    {
+      "_id": "Bespin",
+      "count": 1
+    },
+    {
+      "_id": "Bestine IV",
+      "count": 1
+    },
+    {
+      "_id": "Cato Neimoidia",
+      "count": 1
+    },
+    {
+      "_id": "Cerea",
+      "count": 1
+    },
+    {
+      "_id": "Champala",
+      "count": 1
+    },
+    {
+      "_id": "Chandrila",
+      "count": 1
+    },
+    {
+      "_id": "Concord Dawn",
+      "count": 1
+    },
+    {
+      "_id": "Dathomir",
+      "count": 1
+    },
+    {
+      "_id": "Dorin",
+      "count": 1
+    },
+    {
+      "_id": "Endor",
+      "count": 1
+    },
+    {
+      "_id": "Eriadu",
+      "count": 1
+    },
+    {
+      "_id": "Geonosis",
+      "count": 1
+    },
+    {
+      "_id": "Glee Anselm",
+      "count": 1
+    },
+    {
+      "_id": "Haruun Kal",
+      "count": 1
+    },
+    {
+      "_id": "Iktotch",
+      "count": 1
+    },
+    {
+      "_id": "Iridonia",
+      "count": 1
+    },
+    {
+      "_id": "Kalee",
+      "count": 1
+    },
+    {
+      "_id": "Malastare",
+      "count": 1
+    },
+    {
+      "_id": "Mon Cala",
+      "count": 1
+    },
+    {
+      "_id": "Muunilinst",
+      "count": 1
+    },
+    {
+      "_id": "Nal Hutta",
+      "count": 1
+    },
+    {
+      "_id": "Ojom",
+      "count": 1
+    },
+    {
+      "_id": "Quermia",
+      "count": 1
+    },
+    {
+      "_id": "Rodia",
+      "count": 1
+    },
+    {
+      "_id": "Serenno",
+      "count": 1
+    },
+    {
+      "_id": "Shili",
+      "count": 1
+    },
+    {
+      "_id": "Skako",
+      "count": 1
+    },
+    {
+      "_id": "Socorro",
+      "count": 1
+    },
+    {
+      "_id": "Stewjon",
+      "count": 1
+    },
+    {
+      "_id": "Sullust",
+      "count": 1
+    },
+    {
+      "_id": "Toydaria",
+      "count": 1
+    },
+    {
+      "_id": "Trandosha",
+      "count": 1
+    },
+    {
+      "_id": "Troiken",
+      "count": 1
+    },
+    {
+      "_id": "Tund",
+      "count": 1
+    },
+    {
+      "_id": "Umbara",
+      "count": 1
+    },
+    {
+      "_id": "Utapau",
+      "count": 1
+    },
+    {
+      "_id": "Vulpter",
+      "count": 1
+    },
+    {
+      "_id": "Zolan",
+      "count": 1
+    }
+  ],
+  "tallest_per_species": [
+    {
+      "height": 79.0,
+      "species": {
+        "name": "Aleena"
+      }
+    },
+    {
+      "height": 198.0,
+      "species": {
+        "name": "Besalisk"
+      }
+    },
+    {
+      "height": 198.0,
+      "species": {
+        "name": "Cerean"
+      }
+    },
+    {
+      "height": 196.0,
+      "species": {
+        "name": "Chagrian"
+      }
+    },
+    {
+      "height": 168.0,
+      "species": {
+        "name": "Clawdite"
+      }
+    },
+    {
+      "height": 200.0,
+      "species": {
+        "name": "Droid"
+      }
+    },
+    {
+      "height": 112.0,
+      "species": {
+        "name": "Dug"
+      }
+    },
+    {
+      "height": 88.0,
+      "species": {
+        "name": "Ewok"
+      }
+    },
+    {
+      "height": 183.0,
+      "species": {
+        "name": "Geonosian"
+      }
+    },
+    {
+      "height": 224.0,
+      "species": {
+        "name": "Gungan"
+      }
+    },
+    {
+      "height": 202.0,
+      "species": {
+        "name": "Human"
+      }
+    },
+    {
+      "height": 175.0,
+      "species": {
+        "name": "Hutt"
+      }
+    },
+    {
+      "height": 188.0,
+      "species": {
+        "name": "Iktotchi"
+      }
+    },
+    {
+      "height": 216.0,
+      "species": {
+        "name": "Kaleesh"
+      }
+    },
+    {
+      "height": 229.0,
+      "species": {
+        "name": "Kaminoan"
+      }
+    },
+    {
+      "height": 188.0,
+      "species": {
+        "name": "Kel Dor"
+      }
+    },
+    {
+      "height": 170.0,
+      "species": {
+        "name": "Mirialan"
+      }
+    },
+    {
+      "height": 180.0,
+      "species": {
+        "name": "Mon Calamari"
+      }
+    },
+    {
+      "height": 191.0,
+      "species": {
+        "name": "Muun"
+      }
+    },
+    {
+      "height": 196.0,
+      "species": {
+        "name": "Nautolan"
+      }
+    },
+    {
+      "height": 191.0,
+      "species": {
+        "name": "Neimodian"
+      }
+    },
+    {
+      "height": 206.0,
+      "species": {
+        "name": "Pau'an"
+      }
+    },
+    {
+      "height": 264.0,
+      "species": {
+        "name": "Quermian"
+      }
+    },
+    {
+      "height": 173.0,
+      "species": {
+        "name": "Rodian"
+      }
+    },
+    {
+      "height": 193.0,
+      "species": {
+        "name": "Skakoan"
+      }
+    },
+    {
+      "height": 160.0,
+      "species": {
+        "name": "Sullustan"
+      }
+    },
+    {
+      "height": 184.0,
+      "species": {
+        "name": "Tholothian"
+      }
+    },
+    {
+      "height": 178.0,
+      "species": {
+        "name": "Togruta"
+      }
+    },
+    {
+      "height": 163.0,
+      "species": {
+        "name": "Toong"
+      }
+    },
+    {
+      "height": 137.0,
+      "species": {
+        "name": "Toydarian"
+      }
+    },
+    {
+      "height": 190.0,
+      "species": {
+        "name": "Trandoshan"
+      }
+    },
+    {
+      "height": 180.0,
+      "species": {
+        "name": "Twi'lek"
+      }
+    },
+    {
+      "height": 94.0,
+      "species": {
+        "name": "Vulptereen"
+      }
+    },
+    {
+      "height": 234.0,
+      "species": {
+        "name": "Wookiee"
+      }
+    },
+    {
+      "height": 122.0,
+      "species": {
+        "name": "Xexto"
+      }
+    },
+    {
+      "height": 66.0,
+      "species": {
+        "name": "Yoda's species"
+      }
+    },
+    {
+      "height": 175.0,
+      "species": {
+        "name": "Zabrak"
+      }
+    }
+  ],
+  "average_height_by_eye_color": [
+    {
+      "_id": "green, yellow",
+      "avg_height": 216.0
+    },
+    {
+      "_id": "gold",
+      "avg_height": 191.0
+    },
+    {
+      "_id": "black",
+      "avg_height": 185.0
+    },
+    {
+      "_id": "blue",
+      "avg_height": 182.21052631578948
+    },
+    {
+      "_id": "blue-gray",
+      "avg_height": 182.0
+    },
+    {
+      "_id": "orange",
+      "avg_height": 180.5
+    },
+    {
+      "_id": "pink",
+      "avg_height": 180.0
+    },
+    {
+      "_id": "white",
+      "avg_height": 178.0
+    },
+    {
+      "_id": "yellow",
+      "avg_height": 177.8181818181818
+    },
+    {
+      "_id": "hazel",
+      "avg_height": 174.0
+    },
+    {
+      "_id": "brown",
+      "avg_height": 166.26315789473685
+    },
+    {
+      "_id": "red",
+      "avg_height": 154.8
+    },
+    {
+      "_id": "unknown",
+      "avg_height": 136.0
+    },
+    {
+      "_id": "red, blue",
+      "avg_height": 96.0
+    }
+  ],
+  "birth_year_counts": [
+    {
+      "_id": "19BBY",
+      "count": 2
+    },
+    {
+      "_id": "41.9BBY",
+      "count": 2
+    },
+    {
+      "_id": "48BBY",
+      "count": 2
+    },
+    {
+      "_id": "52BBY",
+      "count": 2
+    },
+    {
+      "_id": "72BBY",
+      "count": 2
+    },
+    {
+      "_id": "82BBY",
+      "count": 2
+    },
+    {
+      "_id": "92BBY",
+      "count": 2
+    }
+  ],
+  "average_measures_by_gender": [
+    {
+      "_id": "female",
+      "avg_height": 170.2,
+      "avg_mass": 54.02,
+      "count": 10
+    },
+    {
+      "_id": "hermaphrodite",
+      "avg_height": 175.0,
+      "avg_mass": 1358.0,
+      "count": 1
+    },
+    {
+      "_id": "male",
+      "avg_height": 177.95454545454547,
+      "avg_mass": 81.00454545454545,
+      "count": 44
+    },
+    {
+      "_id": "n/a",
+      "avg_height": 120.0,
+      "avg_mass": 46.333333333333336,
+      "count": 3
+    },
+    {
+      "_id": "none",
+      "avg_height": 200.0,
+      "avg_mass": 140.0,
+      "count": 1
+    }
+  ],
+  "top_five_homeworlds": [
+    {
+      "_id": "Naboo",
+      "count": 11
+    },
+    {
+      "_id": "Tatooine",
+      "count": 10
+    },
+    {
+      "_id": "unknown",
+      "count": 10
+    },
+    {
+      "_id": "Alderaan",
+      "count": 3
+    },
+    {
+      "_id": "Coruscant",
+      "count": 3
+    }
+  ],
+  "height_buckets": [
+    {
+      "_id": 0,
+      "count": 10
+    },
+    {
+      "_id": 150,
+      "count": 13
+    },
+    {
+      "_id": 170,
+      "count": 35
+    },
+    {
+      "_id": 190,
+      "count": 23
+    }
+  ],
+  "gender_per_species": [
+    {
+      "_id": {
+        "species": null,
+        "gender": "female"
+      },
+      "count": 3
+    },
+    {
+      "_id": {
+        "species": null,
+        "gender": "male"
+      },
+      "count": 2
+    },
+    {
+      "_id": {
+        "species": "Aleena",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Besalisk",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Cerean",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Chagrian",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Clawdite",
+        "gender": "female"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Droid",
+        "gender": "n/a"
+      },
+      "count": 3
+    },
+    {
+      "_id": {
+        "species": "Droid",
+        "gender": "none"
+      },
+      "count": 2
+    },
+    {
+      "_id": {
+        "species": "Dug",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Ewok",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Geonosian",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Gungan",
+        "gender": "male"
+      },
+      "count": 3
+    },
+    {
+      "_id": {
+        "species": "Human",
+        "gender": "female"
+      },
+      "count": 9
+    },
+    {
+      "_id": {
+        "species": "Human",
+        "gender": "male"
+      },
+      "count": 26
+    },
+    {
+      "_id": {
+        "species": "Hutt",
+        "gender": "hermaphrodite"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Iktotchi",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Kaleesh",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Kaminoan",
+        "gender": "female"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Kaminoan",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Kel Dor",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Mirialan",
+        "gender": "female"
+      },
+      "count": 2
+    },
+    {
+      "_id": {
+        "species": "Mon Calamari",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Muun",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Nautolan",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Neimodian",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Pau'an",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Quermian",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Rodian",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Skakoan",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Sullustan",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Tholothian",
+        "gender": "female"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Togruta",
+        "gender": "female"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Toong",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Toydarian",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Trandoshan",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Twi'lek",
+        "gender": "female"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Twi'lek",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Vulptereen",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Wookiee",
+        "gender": "male"
+      },
+      "count": 2
+    },
+    {
+      "_id": {
+        "species": "Xexto",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Yoda's species",
+        "gender": "male"
+      },
+      "count": 1
+    },
+    {
+      "_id": {
+        "species": "Zabrak",
+        "gender": "male"
+      },
+      "count": 2
+    }
+  ],
+  "single_summary": [
+    {
+      "total": 87,
+      "avg_height": 174.35802469135803,
+      "avg_mass": 97.31186440677965,
+      "species_count": 37,
+      "homeworld_count": 49
+    }
+  ],
+  "species_above_global_average": [
+    {
+      "species": "Quermian",
+      "avg_height": 264.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Wookiee",
+      "avg_height": 231.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Kaminoan",
+      "avg_height": 221.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Kaleesh",
+      "avg_height": 216.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Gungan",
+      "avg_height": 208.66666666666666,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Pau'an",
+      "avg_height": 206.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Besalisk",
+      "avg_height": 198.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Cerean",
+      "avg_height": 198.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Chagrian",
+      "avg_height": 196.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Nautolan",
+      "avg_height": 196.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Skakoan",
+      "avg_height": 193.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Muun",
+      "avg_height": 191.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Neimodian",
+      "avg_height": 191.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Trandoshan",
+      "avg_height": 190.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Iktotchi",
+      "avg_height": 188.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Kel Dor",
+      "avg_height": 188.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Tholothian",
+      "avg_height": 184.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Geonosian",
+      "avg_height": 183.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Mon Calamari",
+      "avg_height": 180.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Twi'lek",
+      "avg_height": 179.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Togruta",
+      "avg_height": 178.0,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Human",
+      "avg_height": 176.6451612903226,
+      "global_avg": 174.35802469135803
+    },
+    {
+      "species": "Hutt",
+      "avg_height": 175.0,
+      "global_avg": 174.35802469135803
+    }
+  ],
+  "top_three_heaviest_per_species": [
+    {
+      "_id": "Aleena",
+      "characters": [
+        {
+          "name": "Ratts Tyerell",
+          "mass": 15.0
+        }
+      ]
+    },
+    {
+      "_id": "Besalisk",
+      "characters": [
+        {
+          "name": "Dexter Jettster",
+          "mass": 102.0
+        }
+      ]
+    },
+    {
+      "_id": "Cerean",
+      "characters": [
+        {
+          "name": "Ki-Adi-Mundi",
+          "mass": 82.0
+        }
+      ]
+    },
+    {
+      "_id": "Clawdite",
+      "characters": [
+        {
+          "name": "Zam Wesell",
+          "mass": 55.0
+        }
+      ]
+    },
+    {
+      "_id": "Droid",
+      "characters": [
+        {
+          "name": "IG-88",
+          "mass": 140.0
+        },
+        {
+          "name": "C-3PO",
+          "mass": 75.0
+        },
+        {
+          "name": "R2-D2",
+          "mass": 32.0
+        }
+      ]
+    },
+    {
+      "_id": "Dug",
+      "characters": [
+        {
+          "name": "Sebulba",
+          "mass": 40.0
+        }
+      ]
+    },
+    {
+      "_id": "Ewok",
+      "characters": [
+        {
+          "name": "Wicket Systri Warrick",
+          "mass": 20.0
+        }
+      ]
+    },
+    {
+      "_id": "Geonosian",
+      "characters": [
+        {
+          "name": "Poggle the Lesser",
+          "mass": 80.0
+        }
+      ]
+    },
+    {
+      "_id": "Gungan",
+      "characters": [
+        {
+          "name": "Roos Tarpals",
+          "mass": 82.0
+        },
+        {
+          "name": "Jar Jar Binks",
+          "mass": 66.0
+        }
+      ]
+    },
+    {
+      "_id": "Human",
+      "characters": [
+        {
+          "name": "Darth Vader",
+          "mass": 136.0
+        },
+        {
+          "name": "Owen Lars",
+          "mass": 120.0
+        },
+        {
+          "name": "Jek Tono Porkins",
+          "mass": 110.0
+        }
+      ]
+    },
+    {
+      "_id": "Hutt",
+      "characters": [
+        {
+          "name": "Jabba Desilijic Tiure",
+          "mass": 1358.0
+        }
+      ]
+    },
+    {
+      "_id": "Kaleesh",
+      "characters": [
+        {
+          "name": "Grievous",
+          "mass": 159.0
+        }
+      ]
+    },
+    {
+      "_id": "Kaminoan",
+      "characters": [
+        {
+          "name": "Lama Su",
+          "mass": 88.0
+        }
+      ]
+    },
+    {
+      "_id": "Kel Dor",
+      "characters": [
+        {
+          "name": "Plo Koon",
+          "mass": 80.0
+        }
+      ]
+    },
+    {
+      "_id": "Mirialan",
+      "characters": [
+        {
+          "name": "Luminara Unduli",
+          "mass": 56.2
+        },
+        {
+          "name": "Barriss Offee",
+          "mass": 50.0
+        }
+      ]
+    },
+    {
+      "_id": "Mon Calamari",
+      "characters": [
+        {
+          "name": "Ackbar",
+          "mass": 83.0
+        }
+      ]
+    },
+    {
+      "_id": "Nautolan",
+      "characters": [
+        {
+          "name": "Kit Fisto",
+          "mass": 87.0
+        }
+      ]
+    },
+    {
+      "_id": "Neimodian",
+      "characters": [
+        {
+          "name": "Nute Gunray",
+          "mass": 90.0
+        }
+      ]
+    },
+    {
+      "_id": "Pau'an",
+      "characters": [
+        {
+          "name": "Tion Medon",
+          "mass": 80.0
+        }
+      ]
+    },
+    {
+      "_id": "Rodian",
+      "characters": [
+        {
+          "name": "Greedo",
+          "mass": 74.0
+        }
+      ]
+    },
+    {
+      "_id": "Skakoan",
+      "characters": [
+        {
+          "name": "Wat Tambor",
+          "mass": 48.0
+        }
+      ]
+    },
+    {
+      "_id": "Sullustan",
+      "characters": [
+        {
+          "name": "Nien Nunb",
+          "mass": 68.0
+        }
+      ]
+    },
+    {
+      "_id": "Tholothian",
+      "characters": [
+        {
+          "name": "Adi Gallia",
+          "mass": 50.0
+        }
+      ]
+    },
+    {
+      "_id": "Togruta",
+      "characters": [
+        {
+          "name": "Shaak Ti",
+          "mass": 57.0
+        }
+      ]
+    },
+    {
+      "_id": "Toong",
+      "characters": [
+        {
+          "name": "Ben Quadinaros",
+          "mass": 65.0
+        }
+      ]
+    },
+    {
+      "_id": "Trandoshan",
+      "characters": [
+        {
+          "name": "Bossk",
+          "mass": 113.0
+        }
+      ]
+    },
+    {
+      "_id": "Twi'lek",
+      "characters": [
+        {
+          "name": "Ayla Secura",
+          "mass": 55.0
+        }
+      ]
+    },
+    {
+      "_id": "Vulptereen",
+      "characters": [
+        {
+          "name": "Dud Bolt",
+          "mass": 45.0
+        }
+      ]
+    },
+    {
+      "_id": "Wookiee",
+      "characters": [
+        {
+          "name": "Tarfful",
+          "mass": 136.0
+        },
+        {
+          "name": "Chewbacca",
+          "mass": 112.0
+        }
+      ]
+    },
+    {
+      "_id": "Yoda's species",
+      "characters": [
+        {
+          "name": "Yoda",
+          "mass": 17.0
+        }
+      ]
+    },
+    {
+      "_id": "Zabrak",
+      "characters": [
+        {
+          "name": "Darth Maul",
+          "mass": 80.0
+        }
+      ]
+    }
+  ],
+  "species_statistics": [
+    {
+      "_id": "Human",
+      "count": 35,
+      "avg_height": 176.6451612903226,
+      "avg_mass": 82.78181818181818,
+      "tallest_height": 202.0,
+      "smallest_height": 150.0,
+      "tallest": [
+        {
+          "name": "Darth Vader",
+          "height": 202.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Mon Mothma",
+          "height": 150.0
+        },
+        {
+          "name": "Leia Organa",
+          "height": 150.0
+        }
+      ]
+    },
+    {
+      "_id": "Droid",
+      "count": 5,
+      "avg_height": 140.0,
+      "avg_mass": 69.75,
+      "tallest_height": 200.0,
+      "smallest_height": 96.0,
+      "tallest": [
+        {
+          "name": "IG-88",
+          "height": 200.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "R2-D2",
+          "height": 96.0
+        }
+      ]
+    },
+    {
+      "_id": "Gungan",
+      "count": 3,
+      "avg_height": 208.66666666666666,
+      "avg_mass": 74.0,
+      "tallest_height": 224.0,
+      "smallest_height": 196.0,
+      "tallest": [
+        {
+          "name": "Roos Tarpals",
+          "height": 224.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Jar Jar Binks",
+          "height": 196.0
+        }
+      ]
+    },
+    {
+      "_id": "Kaminoan",
+      "count": 2,
+      "avg_height": 221.0,
+      "avg_mass": 88.0,
+      "tallest_height": 229.0,
+      "smallest_height": 213.0,
+      "tallest": [
+        {
+          "name": "Lama Su",
+          "height": 229.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Taun We",
+          "height": 213.0
+        }
+      ]
+    },
+    {
+      "_id": "Mirialan",
+      "count": 2,
+      "avg_height": 168.0,
+      "avg_mass": 53.1,
+      "tallest_height": 170.0,
+      "smallest_height": 166.0,
+      "tallest": [
+        {
+          "name": "Luminara Unduli",
+          "height": 170.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Barriss Offee",
+          "height": 166.0
+        }
+      ]
+    },
+    {
+      "_id": "Twi'lek",
+      "count": 2,
+      "avg_height": 179.0,
+      "avg_mass": 55.0,
+      "tallest_height": 180.0,
+      "smallest_height": 178.0,
+      "tallest": [
+        {
+          "name": "Bib Fortuna",
+          "height": 180.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Ayla Secura",
+          "height": 178.0
+        }
+      ]
+    },
+    {
+      "_id": "Wookiee",
+      "count": 2,
+      "avg_height": 231.0,
+      "avg_mass": 124.0,
+      "tallest_height": 234.0,
+      "smallest_height": 228.0,
+      "tallest": [
+        {
+          "name": "Tarfful",
+          "height": 234.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Chewbacca",
+          "height": 228.0
+        }
+      ]
+    },
+    {
+      "_id": "Zabrak",
+      "count": 2,
+      "avg_height": 173.0,
+      "avg_mass": 80.0,
+      "tallest_height": 175.0,
+      "smallest_height": 171.0,
+      "tallest": [
+        {
+          "name": "Darth Maul",
+          "height": 175.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Eeth Koth",
+          "height": 171.0
+        }
+      ]
+    },
+    {
+      "_id": "Aleena",
+      "count": 1,
+      "avg_height": 79.0,
+      "avg_mass": 15.0,
+      "tallest_height": 79.0,
+      "smallest_height": 79.0,
+      "tallest": [
+        {
+          "name": "Ratts Tyerell",
+          "height": 79.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Ratts Tyerell",
+          "height": 79.0
+        }
+      ]
+    },
+    {
+      "_id": "Besalisk",
+      "count": 1,
+      "avg_height": 198.0,
+      "avg_mass": 102.0,
+      "tallest_height": 198.0,
+      "smallest_height": 198.0,
+      "tallest": [
+        {
+          "name": "Dexter Jettster",
+          "height": 198.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Dexter Jettster",
+          "height": 198.0
+        }
+      ]
+    },
+    {
+      "_id": "Cerean",
+      "count": 1,
+      "avg_height": 198.0,
+      "avg_mass": 82.0,
+      "tallest_height": 198.0,
+      "smallest_height": 198.0,
+      "tallest": [
+        {
+          "name": "Ki-Adi-Mundi",
+          "height": 198.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Ki-Adi-Mundi",
+          "height": 198.0
+        }
+      ]
+    },
+    {
+      "_id": "Chagrian",
+      "count": 1,
+      "avg_height": 196.0,
+      "avg_mass": null,
+      "tallest_height": 196.0,
+      "smallest_height": 196.0,
+      "tallest": [
+        {
+          "name": "Mas Amedda",
+          "height": 196.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Mas Amedda",
+          "height": 196.0
+        }
+      ]
+    },
+    {
+      "_id": "Clawdite",
+      "count": 1,
+      "avg_height": 168.0,
+      "avg_mass": 55.0,
+      "tallest_height": 168.0,
+      "smallest_height": 168.0,
+      "tallest": [
+        {
+          "name": "Zam Wesell",
+          "height": 168.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Zam Wesell",
+          "height": 168.0
+        }
+      ]
+    },
+    {
+      "_id": "Dug",
+      "count": 1,
+      "avg_height": 112.0,
+      "avg_mass": 40.0,
+      "tallest_height": 112.0,
+      "smallest_height": 112.0,
+      "tallest": [
+        {
+          "name": "Sebulba",
+          "height": 112.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Sebulba",
+          "height": 112.0
+        }
+      ]
+    },
+    {
+      "_id": "Ewok",
+      "count": 1,
+      "avg_height": 88.0,
+      "avg_mass": 20.0,
+      "tallest_height": 88.0,
+      "smallest_height": 88.0,
+      "tallest": [
+        {
+          "name": "Wicket Systri Warrick",
+          "height": 88.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Wicket Systri Warrick",
+          "height": 88.0
+        }
+      ]
+    },
+    {
+      "_id": "Geonosian",
+      "count": 1,
+      "avg_height": 183.0,
+      "avg_mass": 80.0,
+      "tallest_height": 183.0,
+      "smallest_height": 183.0,
+      "tallest": [
+        {
+          "name": "Poggle the Lesser",
+          "height": 183.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Poggle the Lesser",
+          "height": 183.0
+        }
+      ]
+    },
+    {
+      "_id": "Hutt",
+      "count": 1,
+      "avg_height": 175.0,
+      "avg_mass": 1358.0,
+      "tallest_height": 175.0,
+      "smallest_height": 175.0,
+      "tallest": [
+        {
+          "name": "Jabba Desilijic Tiure",
+          "height": 175.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Jabba Desilijic Tiure",
+          "height": 175.0
+        }
+      ]
+    },
+    {
+      "_id": "Iktotchi",
+      "count": 1,
+      "avg_height": 188.0,
+      "avg_mass": null,
+      "tallest_height": 188.0,
+      "smallest_height": 188.0,
+      "tallest": [
+        {
+          "name": "Saesee Tiin",
+          "height": 188.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Saesee Tiin",
+          "height": 188.0
+        }
+      ]
+    },
+    {
+      "_id": "Kaleesh",
+      "count": 1,
+      "avg_height": 216.0,
+      "avg_mass": 159.0,
+      "tallest_height": 216.0,
+      "smallest_height": 216.0,
+      "tallest": [
+        {
+          "name": "Grievous",
+          "height": 216.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Grievous",
+          "height": 216.0
+        }
+      ]
+    },
+    {
+      "_id": "Kel Dor",
+      "count": 1,
+      "avg_height": 188.0,
+      "avg_mass": 80.0,
+      "tallest_height": 188.0,
+      "smallest_height": 188.0,
+      "tallest": [
+        {
+          "name": "Plo Koon",
+          "height": 188.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Plo Koon",
+          "height": 188.0
+        }
+      ]
+    },
+    {
+      "_id": "Mon Calamari",
+      "count": 1,
+      "avg_height": 180.0,
+      "avg_mass": 83.0,
+      "tallest_height": 180.0,
+      "smallest_height": 180.0,
+      "tallest": [
+        {
+          "name": "Ackbar",
+          "height": 180.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Ackbar",
+          "height": 180.0
+        }
+      ]
+    },
+    {
+      "_id": "Muun",
+      "count": 1,
+      "avg_height": 191.0,
+      "avg_mass": null,
+      "tallest_height": 191.0,
+      "smallest_height": 191.0,
+      "tallest": [
+        {
+          "name": "San Hill",
+          "height": 191.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "San Hill",
+          "height": 191.0
+        }
+      ]
+    },
+    {
+      "_id": "Nautolan",
+      "count": 1,
+      "avg_height": 196.0,
+      "avg_mass": 87.0,
+      "tallest_height": 196.0,
+      "smallest_height": 196.0,
+      "tallest": [
+        {
+          "name": "Kit Fisto",
+          "height": 196.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Kit Fisto",
+          "height": 196.0
+        }
+      ]
+    },
+    {
+      "_id": "Neimodian",
+      "count": 1,
+      "avg_height": 191.0,
+      "avg_mass": 90.0,
+      "tallest_height": 191.0,
+      "smallest_height": 191.0,
+      "tallest": [
+        {
+          "name": "Nute Gunray",
+          "height": 191.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Nute Gunray",
+          "height": 191.0
+        }
+      ]
+    },
+    {
+      "_id": "Pau'an",
+      "count": 1,
+      "avg_height": 206.0,
+      "avg_mass": 80.0,
+      "tallest_height": 206.0,
+      "smallest_height": 206.0,
+      "tallest": [
+        {
+          "name": "Tion Medon",
+          "height": 206.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Tion Medon",
+          "height": 206.0
+        }
+      ]
+    },
+    {
+      "_id": "Quermian",
+      "count": 1,
+      "avg_height": 264.0,
+      "avg_mass": null,
+      "tallest_height": 264.0,
+      "smallest_height": 264.0,
+      "tallest": [
+        {
+          "name": "Yarael Poof",
+          "height": 264.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Yarael Poof",
+          "height": 264.0
+        }
+      ]
+    },
+    {
+      "_id": "Rodian",
+      "count": 1,
+      "avg_height": 173.0,
+      "avg_mass": 74.0,
+      "tallest_height": 173.0,
+      "smallest_height": 173.0,
+      "tallest": [
+        {
+          "name": "Greedo",
+          "height": 173.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Greedo",
+          "height": 173.0
+        }
+      ]
+    },
+    {
+      "_id": "Skakoan",
+      "count": 1,
+      "avg_height": 193.0,
+      "avg_mass": 48.0,
+      "tallest_height": 193.0,
+      "smallest_height": 193.0,
+      "tallest": [
+        {
+          "name": "Wat Tambor",
+          "height": 193.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Wat Tambor",
+          "height": 193.0
+        }
+      ]
+    },
+    {
+      "_id": "Sullustan",
+      "count": 1,
+      "avg_height": 160.0,
+      "avg_mass": 68.0,
+      "tallest_height": 160.0,
+      "smallest_height": 160.0,
+      "tallest": [
+        {
+          "name": "Nien Nunb",
+          "height": 160.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Nien Nunb",
+          "height": 160.0
+        }
+      ]
+    },
+    {
+      "_id": "Tholothian",
+      "count": 1,
+      "avg_height": 184.0,
+      "avg_mass": 50.0,
+      "tallest_height": 184.0,
+      "smallest_height": 184.0,
+      "tallest": [
+        {
+          "name": "Adi Gallia",
+          "height": 184.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Adi Gallia",
+          "height": 184.0
+        }
+      ]
+    },
+    {
+      "_id": "Togruta",
+      "count": 1,
+      "avg_height": 178.0,
+      "avg_mass": 57.0,
+      "tallest_height": 178.0,
+      "smallest_height": 178.0,
+      "tallest": [
+        {
+          "name": "Shaak Ti",
+          "height": 178.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Shaak Ti",
+          "height": 178.0
+        }
+      ]
+    },
+    {
+      "_id": "Toong",
+      "count": 1,
+      "avg_height": 163.0,
+      "avg_mass": 65.0,
+      "tallest_height": 163.0,
+      "smallest_height": 163.0,
+      "tallest": [
+        {
+          "name": "Ben Quadinaros",
+          "height": 163.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Ben Quadinaros",
+          "height": 163.0
+        }
+      ]
+    },
+    {
+      "_id": "Toydarian",
+      "count": 1,
+      "avg_height": 137.0,
+      "avg_mass": null,
+      "tallest_height": 137.0,
+      "smallest_height": 137.0,
+      "tallest": [
+        {
+          "name": "Watto",
+          "height": 137.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Watto",
+          "height": 137.0
+        }
+      ]
+    },
+    {
+      "_id": "Trandoshan",
+      "count": 1,
+      "avg_height": 190.0,
+      "avg_mass": 113.0,
+      "tallest_height": 190.0,
+      "smallest_height": 190.0,
+      "tallest": [
+        {
+          "name": "Bossk",
+          "height": 190.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Bossk",
+          "height": 190.0
+        }
+      ]
+    },
+    {
+      "_id": "Vulptereen",
+      "count": 1,
+      "avg_height": 94.0,
+      "avg_mass": 45.0,
+      "tallest_height": 94.0,
+      "smallest_height": 94.0,
+      "tallest": [
+        {
+          "name": "Dud Bolt",
+          "height": 94.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Dud Bolt",
+          "height": 94.0
+        }
+      ]
+    },
+    {
+      "_id": "Xexto",
+      "count": 1,
+      "avg_height": 122.0,
+      "avg_mass": null,
+      "tallest_height": 122.0,
+      "smallest_height": 122.0,
+      "tallest": [
+        {
+          "name": "Gasgano",
+          "height": 122.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Gasgano",
+          "height": 122.0
+        }
+      ]
+    },
+    {
+      "_id": "Yoda's species",
+      "count": 1,
+      "avg_height": 66.0,
+      "avg_mass": 17.0,
+      "tallest_height": 66.0,
+      "smallest_height": 66.0,
+      "tallest": [
+        {
+          "name": "Yoda",
+          "height": 66.0
+        }
+      ],
+      "smallest": [
+        {
+          "name": "Yoda",
+          "height": 66.0
+        }
+      ]
+    }
+  ]
+}

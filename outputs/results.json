@@ -1,0 +1,234 @@
+{
+  "starships": 36,
+  "characters": 87,
+  "pilot_links": 30,
+  "unresolved_links": 0,
+  "ships_with_pilots": 15,
+  "lookup": [
+    {
+      "name": "A-wing",
+      "url": "https://swapi.dev/api/starships/28/",
+      "pilot_names": [
+        "Arvel Crynyd"
+      ]
+    },
+    {
+      "name": "AA-9 Coruscant freighter",
+      "url": "https://swapi.dev/api/starships/47/",
+      "pilot_names": []
+    },
+    {
+      "name": "B-wing",
+      "url": "https://swapi.dev/api/starships/29/",
+      "pilot_names": []
+    },
+    {
+      "name": "Banking clan frigte",
+      "url": "https://swapi.dev/api/starships/68/",
+      "pilot_names": []
+    },
+    {
+      "name": "Belbullab-22 starfighter",
+      "url": "https://swapi.dev/api/starships/74/",
+      "pilot_names": [
+        "Obi-Wan Kenobi",
+        "Grievous"
+      ]
+    },
+    {
+      "name": "CR90 corvette",
+      "url": "https://swapi.dev/api/starships/2/",
+      "pilot_names": []
+    },
+    {
+      "name": "Calamari Cruiser",
+      "url": "https://swapi.dev/api/starships/27/",
+      "pilot_names": []
+    },
+    {
+      "name": "Death Star",
+      "url": "https://swapi.dev/api/starships/9/",
+      "pilot_names": []
+    },
+    {
+      "name": "Droid control ship",
+      "url": "https://swapi.dev/api/starships/32/",
+      "pilot_names": []
+    },
+    {
+      "name": "EF76 Nebulon-B escort frigate",
+      "url": "https://swapi.dev/api/starships/23/",
+      "pilot_names": []
+    },
+    {
+      "name": "Executor",
+      "url": "https://swapi.dev/api/starships/15/",
+      "pilot_names": []
+    },
+    {
+      "name": "H-type Nubian yacht",
+      "url": "https://swapi.dev/api/starships/49/",
+      "pilot_names": [
+        "Padm\u00e9 Amidala"
+      ]
+    },
+    {
+      "name": "Imperial shuttle",
+      "url": "https://swapi.dev/api/starships/22/",
+      "pilot_names": [
+        "Chewbacca",
+        "Luke Skywalker",
+        "Han Solo"
+      ]
+    },
+    {
+      "name": "J-type diplomatic barge",
+      "url": "https://swapi.dev/api/starships/43/",
+      "pilot_names": []
+    },
+    {
+      "name": "Jedi Interceptor",
+      "url": "https://swapi.dev/api/starships/65/",
+      "pilot_names": [
+        "Obi-Wan Kenobi",
+        "Anakin Skywalker"
+      ]
+    },
+    {
+      "name": "Jedi starfighter",
+      "url": "https://swapi.dev/api/starships/48/",
+      "pilot_names": [
+        "Obi-Wan Kenobi",
+        "Plo Koon"
+      ]
+    },
+    {
+      "name": "Millennium Falcon",
+      "url": "https://swapi.dev/api/starships/10/",
+      "pilot_names": [
+        "Han Solo",
+        "Lando Calrissian",
+        "Chewbacca",
+        "Nien Nunb"
+      ]
+    },
+    {
+      "name": "Naboo Royal Starship",
+      "url": "https://swapi.dev/api/starships/40/",
+      "pilot_names": [
+        "Ric Oli\u00e9"
+      ]
+    },
+    {
+      "name": "Naboo fighter",
+      "url": "https://swapi.dev/api/starships/39/",
+      "pilot_names": [
+        "Anakin Skywalker",
+        "Padm\u00e9 Amidala",
+        "Gregar Typho"
+      ]
+    },
+    {
+      "name": "Naboo star skiff",
+      "url": "https://swapi.dev/api/starships/64/",
+      "pilot_names": [
+        "Padm\u00e9 Amidala",
+        "Obi-Wan Kenobi"
+      ]
+    },
+    {
+      "name": "Rebel transport",
+      "url": "https://swapi.dev/api/starships/17/",
+      "pilot_names": []
+    },
+    {
+      "name": "Republic Assault ship",
+      "url": "https://swapi.dev/api/starships/52/",
+      "pilot_names": []
+    },
+    {
+      "name": "Republic Cruiser",
+      "url": "https://swapi.dev/api/starships/31/",
+      "pilot_names": []
+    },
+    {
+      "name": "Republic attack cruiser",
+      "url": "https://swapi.dev/api/starships/63/",
+      "pilot_names": []
+    },
+    {
+      "name": "Scimitar",
+      "url": "https://swapi.dev/api/starships/41/",
+      "pilot_names": [
+        "Darth Maul"
+      ]
+    },
+    {
+      "name": "Sentinel-class landing craft",
+      "url": "https://swapi.dev/api/starships/5/",
+      "pilot_names": []
+    },
+    {
+      "name": "Slave 1",
+      "url": "https://swapi.dev/api/starships/21/",
+      "pilot_names": [
+        "Boba Fett"
+      ]
+    },
+    {
+      "name": "Solar Sailer",
+      "url": "https://swapi.dev/api/starships/58/",
+      "pilot_names": []
+    },
+    {
+      "name": "Star Destroyer",
+      "url": "https://swapi.dev/api/starships/3/",
+      "pilot_names": []
+    },
+    {
+      "name": "TIE Advanced x1",
+      "url": "https://swapi.dev/api/starships/13/",
+      "pilot_names": [
+        "Darth Vader"
+      ]
+    },
+    {
+      "name": "Theta-class T-2c shuttle",
+      "url": "https://swapi.dev/api/starships/61/",
+      "pilot_names": []
+    },
+    {
+      "name": "Trade Federation cruiser",
+      "url": "https://swapi.dev/api/starships/59/",
+      "pilot_names": [
+        "Obi-Wan Kenobi",
+        "Anakin Skywalker"
+      ]
+    },
+    {
+      "name": "V-wing",
+      "url": "https://swapi.dev/api/starships/75/",
+      "pilot_names": []
+    },
+    {
+      "name": "X-wing",
+      "url": "https://swapi.dev/api/starships/12/",
+      "pilot_names": [
+        "Biggs Darklighter",
+        "Wedge Antilles",
+        "Jek Tono Porkins",
+        "Luke Skywalker"
+      ]
+    },
+    {
+      "name": "Y-wing",
+      "url": "https://swapi.dev/api/starships/11/",
+      "pilot_names": []
+    },
+    {
+      "name": "arc-170",
+      "url": "https://swapi.dev/api/starships/66/",
+      "pilot_names": []
+    }
+  ]
+}

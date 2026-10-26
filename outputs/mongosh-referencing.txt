@@ -1,0 +1,12 @@
+[
+  {
+    name: 'Millennium Falcon',
+    pilot_names: [
+      'Chewbacca',
+      'Lando Calrissian',
+      'Han Solo',
+      'Nien Nunb'
+    ]
+  }
+]
+PASS: Millennium Falcon has four referenced pilots; 36 starships remain.

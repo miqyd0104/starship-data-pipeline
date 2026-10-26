@@ -1,16 +1,15 @@
-# Contributing
+# Working on this project
 
-Use Python 3.11 or newer. Create a virtual environment and install `pip install -e '.[dev]'`.
-Before opening a pull request, run:
+This repository preserves the original script-based Star Wars project. Keep changes small, document their purpose, and avoid changing the demonstration into a different application.
+
+Create a virtual environment and install `requirements.txt`. Run:
 
 ```sh
-ruff check .
-ruff format --check .
-pytest -m 'not integration' --cov=starship_pipeline --cov-fail-under=90
-starship-pipeline demo
+python -m unittest discover -s tests -v
+ruff check starships.py aggregations.py verify.py sql_extension.py run_demo.py tests/
+ruff format --check starships.py aggregations.py verify.py sql_extension.py run_demo.py tests/
+# Requires a running MongoDB server:
+python run_demo.py
 ```
 
-Real-server changes also need `MONGODB_TEST_URI=mongodb://localhost:27017 pytest -m integration`.
-The integration test creates and removes only its own UUID-named test database.
-Keep unit tests deterministic: use the original synthetic fixtures and mock HTTP, rather than calling SWAPI.
-Document changes to the report contract and avoid committing generated databases, credentials, runtime snapshots or personal screen recordings.
+The demo writes to `sparta_week06` and creates a local SQLite file under `outputs/`. Use a separate MongoDB server when testing a different dataset. Do not commit environments, credentials or SQLite binaries. If you intentionally change executable code, update the original-code correspondence document so it does not claim unchanged bytes.

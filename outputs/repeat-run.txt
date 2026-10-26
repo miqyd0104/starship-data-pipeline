@@ -1,0 +1,8 @@
+{
+  "starships": 36,
+  "characters": 87,
+  "pilot_links": 30,
+  "unresolved_links": 0,
+  "ships_with_pilots": 15
+}
+Millennium Falcon: Chewbacca, Han Solo, Lando Calrissian, Nien Nunb

@@ -1,0 +1,46 @@
+{
+  "description": "SHA-256 comparison against the original Week 6 Star Wars project. All executable project files and requirements are unchanged. Only portfolio documentation and setup/CI files are adapted.",
+  "original_project_revision": "c902a4cc0a70e9750935ad793ebd0cf6f02d7bfb",
+  "files": {
+    "aggregations.js": {
+      "sha256": "ae6ef1826c8704779787783d355281c556300a935a489bd0e2f0e4da3e7b0fc2",
+      "matches_original": true
+    },
+    "aggregations.py": {
+      "sha256": "1cad9be119b45c8a1c5cfbe45802b916d02464ae35bd0c083297d4929e6a8bf2",
+      "matches_original": true
+    },
+    "referencing.js": {
+      "sha256": "6c2bcae8b5a0364d17898cbaf461bd47c684530da5b0724ca52b41284ac4d2e7",
+      "matches_original": true
+    },
+    "requirements.txt": {
+      "sha256": "b17e58d176204c4c2a465e03cad9ee1e3fe7eb15a4e8ded663ed272c20e3893b",
+      "matches_original": true
+    },
+    "run_demo.py": {
+      "sha256": "3ef336aca0a4621a67bff67cf333ecb56cbd6d2acfa9af8966462ff260bafdfc",
+      "matches_original": true
+    },
+    "schema.sql": {
+      "sha256": "3686dc0c70019db4a79b28c91e8c655e8ceb6624eb68266c797bc3b76fa7dd91",
+      "matches_original": true
+    },
+    "sql_extension.py": {
+      "sha256": "6d4d9942af094db908d8128a686e241d0a86567c672e9fa311e97c76b4839dfa",
+      "matches_original": true
+    },
+    "starships.py": {
+      "sha256": "e798c03d656346af4a7d9c2aac9f5d55012ad741b22d7f1c3d60f82c7cf859f2",
+      "matches_original": true
+    },
+    "tests/test_starships.py": {
+      "sha256": "6d91df5ea641e3f37cb5b983cf02dd1fefaafc250ada66ee65fb5bcebad07aae",
+      "matches_original": true
+    },
+    "verify.py": {
+      "sha256": "72331fd8e349a636ca71d8cee1eea2575e5dc85e08d62845992f4851da37057c",
+      "matches_original": true
+    }
+  }
+}

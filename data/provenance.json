@@ -1,0 +1,13 @@
+{
+  "recorded_at_utc": "2026-10-26T11:12:35.172698+00:00",
+  "sources": {
+    "starships": "https://swapi.dev/api/starships/ (all pages)",
+    "pilots": "SWAPI people URLs in the starship pilot fields",
+    "characters": "Projection of local star_wars.characters class dataset, 87 records; no original IDs or film text"
+  },
+  "sha256": {
+    "characters.json": "d90a39f08c65d978ed268576b8d976d004b2b1c0cf6d71c43b356ca577cb2501",
+    "pilots.json": "0f5a8a3c5f191eb805eb53f63a19224ba2ad7e7cfa6fc302136295e30c59a425",
+    "starships.json": "0e97894ece977a8a7dae6de977c0e9c86cfc1dc04557cf842eba7efee7bfaa43"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "counts": {
+    "characters": 87,
+    "models": 36,
+    "manufacturers": 31,
+    "model_manufacturers": 50,
+    "starships": 36,
+    "starship_pilots": 30,
+    "films": 6,
+    "starship_films": 55
+  },
+  "foreign_key_violations": [],
+  "falcon_pilots": [
+    [
+      "Millennium Falcon",
+      "Chewbacca"
+    ],
+    [
+      "Millennium Falcon",
+      "Han Solo"
+    ],
+    [
+      "Millennium Falcon",
+      "Lando Calrissian"
+    ],
+    [
+      "Millennium Falcon",
+      "Nien Nunb"
+    ]
+  ]
+}

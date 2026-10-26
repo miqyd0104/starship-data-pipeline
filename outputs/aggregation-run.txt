@@ -1,0 +1,10 @@
+Executed 12 aggregation pipelines on 87 characters
+[
+  {
+    "total": 87,
+    "avg_height": 174.35802469135803,
+    "avg_mass": 97.31186440677965,
+    "species_count": 37,
+    "homeworld_count": 49
+  }
+]

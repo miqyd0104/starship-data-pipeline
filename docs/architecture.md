@@ -1,66 +1,59 @@
-# Architecture and data contracts
+# Architecture of the original project
 
-The pipeline turns URL-based API relationships into native MongoDB references, then proves that a relational export preserves the same identities. `prepare()` is pure and validates the full input before the first database write.
+The implementation is the original Star Wars project, extracted into its own repository. It remains a set of readable Python scripts, not an installed CLI package.
 
-## Boundaries
+```mermaid
+flowchart LR
+    A[SWAPI pages or saved responses] --> B[get_starships]
+    C[87-character snapshot] --> D[MongoDB characters]
+    B --> E[get_pilot_ids]
+    D --> E
+    E --> F[replace_pilots_and_insert]
+    F --> G[MongoDB starships with ObjectIds]
+    G --> H[lookup + independent verification]
+    D --> I[12 aggregation pipelines]
+    I --> H
+    G --> J[SQLite export]
+    D --> J
+    J --> K[8 relational tables + foreign key check]
+```
 
-| Module | Responsibility | Failure contract |
-|---|---|---|
-| `source.py` | Fetch public people/starships pages with a reusable HTTP session | Reject redirects, unexpected hosts/paths, cycles, inconsistent counts and duplicate identities |
-| `transform.py` | Select useful fields, canonicalise URLs and parse measures | Reject missing names, invalid measures and unresolved/duplicate pilot URLs |
-| `storage.py` | Upsert MongoDB, verify lookup, export SQLite | Reject dangling/wrong pilot IDs, stale datasets and SQL identity differences |
-| `pipeline.py` | Assemble evidence after successful checks | Write a report with an explicit source/backend and projection checksum |
-| `cli.py` | Configure the run and return a process status | Exit 1 on handled data, HTTP, file or database errors; omit raw credential details |
+## The identity bridge
 
-## MongoDB model
+The 87-character dataset has character names but no SWAPI person URLs. `get_pilot_ids` retrieves each person response, then requires exactly one character with the matching name. Names are therefore an explicit source-matching assumption, not a claimed globally stable identifier. Missing or ambiguous matches raise an error.
 
-`people` contains `source_url`, `name`, `height_cm` and `mass_kg`, plus MongoDB's `_id`.
+The ship stores character ObjectIds. `$lookup` joins its `pilots` array against `characters._id`; it can match several people without unwinding the array. The independent verifier checks stored pilot names against the saved API person responses.
 
-`starships` contains `source_url`, `name`, `model`, raw `manufacturer` attribution, `length_m`, canonical `pilot_urls` and the corresponding BSON `pilots` array.
+## Reruns and write scope
 
-Both collections have a unique `source_url` index. `people._id` survives upserts, so repeated imports do not break existing pilot links. Names are never used as a unique key.
+The original scripts read the class `star_wars.characters` collection only when snapshot seeding is not selected. For standalone use, `run_demo.py` selects `--offline --seed-snapshot`, which populates the project collection from the included data.
 
-## SQLite model
+All project writes go to `sparta_week06`. Character snapshot upserts match names; ship upserts match a unique URL. Existing IDs are retained on normal repeated snapshot runs. Do not switch to a source with different character IDs in the same populated project database.
+
+All pilot matches are checked before ship writes, but the import is not a MongoDB transaction. A connection failure during writing can leave a partial load; rerun to complete the upserts. Unexpected extra ships cause verification to fail instead of being silently removed. No exactly-once delivery or cross-database transaction is claimed.
+
+## SQL model
 
 ```mermaid
 erDiagram
-    PEOPLE ||--o{ STARSHIP_PILOTS : pilots
+    CHARACTERS ||--o{ STARSHIP_PILOTS : pilots
     STARSHIPS ||--o{ STARSHIP_PILOTS : has
     MODELS ||--o{ STARSHIPS : describes
-    PEOPLE {
-        text source_url PK
-        text name
-        real height_cm
-        real mass_kg
-    }
-    MODELS {
-        text model_id PK
-        text model
-        text manufacturer_attribution
-        real length_m
-    }
-    STARSHIPS {
-        text source_url PK
-        text name
-        text model_id FK
-    }
-    STARSHIP_PILOTS {
-        text starship_url PK,FK
-        text person_url PK,FK
-    }
+    MODELS ||--o{ MODEL_MANUFACTURERS : attributed_to
+    MANUFACTURERS ||--o{ MODEL_MANUFACTURERS : builds
+    STARSHIPS ||--o{ STARSHIP_FILMS : appears_in
+    FILMS ||--o{ STARSHIP_FILMS : includes
 ```
 
-The export is the analytical projection above, not a full schema for all SWAPI resources. A model specification is identified by its exact model description, manufacturer attribution and length. A hash provides a stable surrogate key; this avoids assuming that a model name alone uniquely identifies a specification. The attribution is preserved as source text, not split into invented supplier entities.
+`schema.sql` contains the full original eight-table definition. Model specifications depend on a model key; relationships become composite-key junction rows. The loader rejects conflicting specifications for one model name. It treats comma-separated manufacturer names as separate organisations; that parsing assumption is documented rather than hidden. Character and film tables contain identity projections only.
 
-## Verification sequence
+Raw unknown values and ranges remain text in SQL. The numeric fields used by the MongoDB aggregations are converted separately inside those pipelines. SQL writes use the standard library `sqlite3` connection. The project does not depend on SQLAlchemy.
 
-1. Validate and canonicalise the complete extracted dataset.
-2. Upsert people; resolve their source URLs to ObjectIds; upsert ships.
-3. Compare the exact set of stored people and ship identities against the source.
-4. Check pilot IDs are BSON ObjectIds, exist, and resolve to the expected person URLs in order.
-5. Execute `$lookup` and compare its returned person URL sets.
-6. Export SQLite inside a transaction and run `PRAGMA foreign_key_check`.
-7. Compare every SQL `(ship_url, person_url)` pair and both entity sets against the source.
-8. Save the report and raw runtime snapshot for explicit replay.
+## Verification layers
 
-A failed run exits nonzero. An earlier report in a reused directory remains an earlier report: inspect its source, timestamp and checksum; a file's presence alone is not proof that the latest attempt passed. MongoDB and SQLite do not share a distributed transaction.
+1. Fifteen original unit tests exercise the function behaviour with mocked API responses and mongomock.
+2. The original demo runs the import, `$lookup`, aggregation pipelines and SQL export against a real MongoDB server.
+3. `verify.py` independently calculates the aggregation results in Python and checks source-to-stored pilot relationships.
+4. GitHub Actions executes the original full demo twice in an isolated MongoDB environment and runs the unchanged unit tests on multiple Python versions.
+
+MongoDB 7.0 is used for the optional Docker/CI service to avoid the hosted runner's MongoDB 8 kernel-startup compatibility issue. This setup choice does not change the original project code.

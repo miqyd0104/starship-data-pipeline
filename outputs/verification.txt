@@ -1,0 +1,3 @@
+PASS: all 36 ships and 30 pilot links match the source API by name.
+PASS: all 12 aggregation tasks independently checked with Python.
+PASS: live MongoDB IDs are ObjectIds; no unresolved pilot links.
