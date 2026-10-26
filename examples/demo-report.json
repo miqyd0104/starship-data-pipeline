@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "source": "synthetic-fixture",
+  "mongo_backend": "mongomock (not a real MongoDB server)",
+  "finished_at_utc": "2026-10-26T14:16:22.349926+00:00",
+  "duration_seconds": 0.006,
+  "source_projection_sha256": "4e165e939e1a93b426a35983d2edb58f90489b597313ea5df400bbcd5ac2012e",
+  "counts": {
+    "people": 3,
+    "starships": 3,
+    "pilot_links": 3
+  },
+  "quality": {
+    "unresolved_pilot_links": 0,
+    "mongo_lookup_verified": true,
+    "sql_identity_parity": true,
+    "sql_foreign_key_violations": 0
+  },
+  "analytics": {
+    "ships_with_pilots": 2,
+    "ships_without_pilots": 1,
+    "unique_pilots": 2,
+    "known_lengths": 2,
+    "average_known_length_m": 617.25,
+    "longest_ships": [
+      {
+        "name": "Horizon",
+        "length_m": 1200.0
+      },
+      {
+        "name": "Aurora",
+        "length_m": 34.5
+      }
+    ]
+  },
+  "starship_pilots": [
+    {
+      "source_url": "https://swapi.dev/api/starships/9001/",
+      "name": "Aurora",
+      "pilot_names": [
+        "Ari Vale",
+        "Mira Chen"
+      ],
+      "pilot_sources": [
+        "https://swapi.dev/api/people/9001/",
+        "https://swapi.dev/api/people/9002/"
+      ]
+    },
+    {
+      "source_url": "https://swapi.dev/api/starships/9002/",
+      "name": "Horizon",
+      "pilot_names": [
+        "Ari Vale"
+      ],
+      "pilot_sources": [
+        "https://swapi.dev/api/people/9001/"
+      ]
+    },
+    {
+      "source_url": "https://swapi.dev/api/starships/9003/",
+      "name": "Relay",
+      "pilot_names": [],
+      "pilot_sources": []
+    }
+  ]
+}

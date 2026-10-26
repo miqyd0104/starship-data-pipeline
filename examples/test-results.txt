@@ -1,0 +1,17 @@
+........................................................                 [100%]
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.14.6-final-0 _______________
+
+Name                                 Stmts   Miss  Cover   Missing
+------------------------------------------------------------------
+src/starship_pipeline/__init__.py        1      0   100%
+src/starship_pipeline/cli.py            66      4    94%   47-49, 112
+src/starship_pipeline/demo.py            4      0   100%
+src/starship_pipeline/pipeline.py       23      0   100%
+src/starship_pipeline/source.py         65      4    94%   22, 52, 79, 98
+src/starship_pipeline/storage.py        63      2    97%   97, 133
+src/starship_pipeline/transform.py      41      0   100%
+------------------------------------------------------------------
+TOTAL                                  263     10    96%
+Required test coverage of 90% reached. Total coverage: 96.20%
+56 passed in 0.26s

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "starship-data-pipeline"
+version = "1.0.0"
+description = "A reproducible API-to-MongoDB-to-SQL pipeline with reference integrity checks."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Syed Miqdad Hamdani"}]
+dependencies = ["requests>=2.32.4,<3", "pymongo>=4.10,<5"]
+
+[project.optional-dependencies]
+demo = ["mongomock>=4.3,<5"]
+dev = ["mongomock>=4.3,<5", "pytest>=8,<10", "pytest-cov>=6,<8", "ruff>=0.11,<1", "build>=1.2,<2"]
+
+[project.scripts]
+starship-pipeline = "starship_pipeline.cli:main"
+
+[project.urls]
+Repository = "https://github.com/miqyd0104/starship-data-pipeline"
+Issues = "https://github.com/miqyd0104/starship-data-pipeline/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["integration: requires a real MongoDB server"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.coverage.run]
+source = ["starship_pipeline"]
+
+[tool.coverage.report]
+show_missing = true
