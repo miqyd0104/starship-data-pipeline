@@ -33,3 +33,7 @@ Data-quality checks happen before MongoDB writes. A later connectivity failure c
 ## Evidence over decorative claims
 
 Tests cover success cases and meaningful failure paths. A separate integration test exercises a real MongoDB server. SQL pair comparisons verify identities, not just equal row counts. The local full-API run and its replay are documented separately from CI, which never depends on the public API.
+
+## CI database compatibility
+
+The development container and integration job use MongoDB 7.0, which supports the operators used here. The initial MongoDB 8.0 container could not start on the hosted runner because of the upstream Linux-kernel/allocator compatibility guard ([MongoDB SERVER-136848](https://jira.mongodb.org/browse/SERVER-136848)). Selecting a compatible server baseline preserves a real integration check without bypassing that guard. The separate local full-API run also succeeded against the installed newer MongoDB server.

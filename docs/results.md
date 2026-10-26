@@ -31,7 +31,7 @@ The synthetic fixture produces **3 people, 3 ships, 3 links**, with no unresolve
 
 [Recorded test output](../examples/test-results.txt)
 
-The initial local verification passed **56 tests**, including the real MongoDB integration test, with **96.20% statement coverage** on Python 3.14.6. GitHub Actions independently runs supported Python versions and a MongoDB 8.0 service; use the current CI status for the latest commit's result.
+The initial local verification passed **56 tests**, including the real MongoDB integration test, with **96.20% statement coverage** on Python 3.14.6. GitHub Actions independently runs supported Python versions and a MongoDB 7.0 service; use the current CI status for the latest commit's result.
 
 The tests exercise pagination, cycles, source identity, duplicate names, missing/duplicate pilots, numeric parsing, unknown values, HTTP failures/redirects, retry configuration, stable ObjectIds, empty pilot arrays, stale datasets, SQL parity, changed links, CLI execution, report generation and error redaction.
 

@@ -148,7 +148,7 @@ MONGODB_TEST_URI=mongodb://localhost:27017 pytest -m integration -v
 python -m build
 ```
 
-GitHub Actions runs linting, formatting, tests, the offline demo and packaging on **Python 3.11, 3.12 and 3.13**. A separate job runs the integration test against **MongoDB 8.0**. Unit tests do not call the public API. Live API verification is recorded separately from CI.
+GitHub Actions runs linting, formatting, tests, the offline demo and packaging on **Python 3.11, 3.12 and 3.13**. A separate job runs the integration test against **MongoDB 7.0**. Unit tests do not call the public API. Live API verification is recorded separately from CI.
 
 For exact dependency versions used during development, install `requirements-dev.lock`, then `pip install -e . --no-deps`.
 
